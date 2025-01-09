@@ -29,7 +29,7 @@ function caculate(){
 
 }
 catch(error){
-    inputNumber.value = "asa nhi karo"
+    inputNumber.value = "kya chaty ho?"
 }
 
 }
