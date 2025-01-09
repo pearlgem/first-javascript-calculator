@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Attempt To Make Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+    <h1 class="font-semibold text-3xl text-center ">Welcome to ugh calculator maybe</h1>
+    </div>
+    <div class="calculatorbody h-[30rem] w-96 xl:mx-[38%] xl:mt-7" style=" border: 1px solid black;">
+        <div class="inputField">
+            <input id="inputNumber" type="text" readonly class=" border-black border-[2px] w-[95%] mx-2 mt-2 h-24 bg-green-200  text-5xl ">
+        </div>
+        <div class="buttonsInit">
+            <div class="row1 flex justify-around mt-5">
+                <button onclick="number('1')"  id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >1</button>
+                <button onclick="number('2')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >2</button>
+                <button onclick="number('3')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >3</button>
+                <button onclick="number('-')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >-</button>
+            </div>
+            <div class="row1 flex justify-around mt-2" >
+                <button onclick="number('4')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20">4</button>
+                <button onclick="number('5')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >5</button>
+                <button onclick="number('6')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >6</button>
+                <button onclick="number('+')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >+</button>
+            </div>
+            <div class="row1 flex justify-around mt-2">
+                <button onclick="number('7')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >7</button>
+                <button onclick="number('8')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20">8</button>
+                <button onclick="number('9')" class="h-20 bg-gray-700 text-white text-3xl w-20" >9</button>
+                <button onclick="number('/')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >/</button>
+            </div>
+            <div class="row1 flex justify-around mt-2">
+                <button onclick="allClear()" id="" class="h-20 bg-gray-700 text-white text-3xl w-20 ">AC</button>
+                <button onclick="number('0')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >0</button>
+                <button onclick="number('*')" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >X</button>
+                <button onclick="caculate()" id="" class="h-20 bg-gray-700 text-white text-3xl w-20" >=</button>
+            </div>
+            
+        
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
